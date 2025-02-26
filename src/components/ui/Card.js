@@ -5,8 +5,8 @@ import styles from './Card.module.css';
 export default function Card() {
 
     let cardMap = skill.map(element => (
-            <article className={styles.cardBox}>
-                <div className={styles.cardIcon} key={element.title}>
+            <article className={styles.cardBox} key={element.title}>
+                <div className={styles.cardIcon}>
                     <i className={element.icon} style={{color: element.color}}></i>
                 </div>
                 <div className={styles.cardText}>

@@ -46,10 +46,10 @@ const hiddenElements = useRef([]); // array per gli elementi da osservare
                     <p>{profile.descr2}</p>
                     <div className={styles.listDetail}>
                         <ul>
-                            <li><i class='bx bx-chevron-right'></i><b>Birthday:</b> {profile.hb}</li>
-                            <li><i class='bx bx-chevron-right'></i><b>Age:</b> {profile.age}</li>
-                            <li><i class='bx bx-chevron-right'></i><b>E-Mail:</b> {profile.mail}</li>
-                            <li><i class='bx bx-chevron-right'></i><b>City:</b> {profile.city}</li>
+                            <li><i className='bx bx-chevron-right'></i><b>Birthday:</b> {profile.hb}</li>
+                            <li><i className='bx bx-chevron-right'></i><b>Age:</b> {profile.age}</li>
+                            <li><i className='bx bx-chevron-right'></i><b>E-Mail:</b> {profile.mail}</li>
+                            <li><i className='bx bx-chevron-right'></i><b>City:</b> {profile.city}</li>
                         </ul>
                     </div>
                 </div>
