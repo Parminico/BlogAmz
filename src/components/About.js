@@ -43,7 +43,6 @@ const hiddenElements = useRef([]); // array per gli elementi da osservare
                     <img src={photo2} alt='worker'/>
                 </div>
                 <div className={`${styles.hidden} ${styles.aboutInfoDetails}`} ref={(el) => (hiddenElements.current[1] = el)}>
-                    <p>{profile.descr2}</p>
                     <div className={styles.listDetail}>
                         <ul>
                             <li><i className='bx bx-chevron-right'></i><b>Birthday:</b> {profile.hb}</li>
