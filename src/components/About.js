@@ -1,8 +1,8 @@
 import styles from './About.module.css';
-import photo1 from '../image/1.JPG';
+// import photo1 from '../image/1.JPG';
 import photo2 from '../image/2.JPG';
-import photo3 from '../image/3.jpg';
-import photo4 from '../image/4.JPG';
+// import photo3 from '../image/3.jpg';
+// import photo4 from '../image/4.JPG';
 import { useEffect, useRef } from 'react';
 
 export default function About({profile}) {

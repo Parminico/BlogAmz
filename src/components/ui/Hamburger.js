@@ -45,13 +45,12 @@ export default function Hamburger() {
                                 <span>Portfolio</span>
                             </button>
                         </a>
-                        <a href="#contact" onClick={viewNavbar}>
-                            {/* <Button text='Contact' icon='bx bxs-contact'></Button> */}
+                        {/* <a href="#contact" onClick={viewNavbar}>
                             <button className={styles.button}>
                                 <i className='bx bxs-contact Icon'/>
                                 <span>Contact</span>
                             </button>
-                        </a>
+                        </a> */}
                     </div>
                 </>
             )}
