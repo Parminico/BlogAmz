@@ -1,5 +1,19 @@
+const oggi = new Date(); // Data corrente
+const dataDiNascita = new Date('1998-10-08'); // Esempio di data di nascita
+let eta = oggi.getFullYear() - dataDiNascita.getFullYear();
+const meseCorrente = oggi.getMonth();
+const giornoCorrente = oggi.getDate();
+const meseDiNascita = dataDiNascita.getMonth();
+const giornoDiNascita = dataDiNascita.getDate();
+
+if (meseCorrente < meseDiNascita || (meseCorrente === meseDiNascita && giornoCorrente < giornoDiNascita)) {
+    eta--; // Decrementa l'età se il compleanno non è ancora passato quest'anno
+}
+
+
+
 export const profile = {
-    age: 26,
+    age: eta,
     name: 'Nicolò',
     surname: 'Parmiggiani',
     city: 'Guastalla (RE)',
