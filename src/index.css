@@ -116,7 +116,8 @@ li {
         background-size: auto;
         align-items: flex-start;
         background: url(./image/sfondotelefono2.jpg) top right no-repeat;
-
+        background-size: cover;
+        background-position: right;
     }
 }
 
