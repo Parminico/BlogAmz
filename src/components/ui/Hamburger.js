@@ -1,6 +1,6 @@
 import styles from './Hamburger.module.css';
 import { useState } from 'react';
-import Button from './NavbarButton';
+import {NavLink} from 'react-router-dom';
 
 export default function Hamburger() {
 
@@ -16,41 +16,36 @@ export default function Hamburger() {
             </button>
             {showNavbar && (
                 <>
-                    <div className={styles.show}>
-                        <a href="#home" onClick={viewNavbar}>
-                            {/* <Button text='Home' icon='bx bx-home-alt'></Button> */}
-                            <button className={styles.button}>
-                                <i className='bx bx-home-alt Icon'/>
-                                <span>Home</span>
-                            </button>
-                        </a>
-                        <a href="#about" onClick={viewNavbar}>
-                            {/* <Button text='About' icon='bx bxs-user'></Button> */}
-                            <button className={styles.button}>
-                                <i className='bx bxs-user Icon'/>
-                                <span>About</span>
-                            </button>
-                        </a>
-                        <a href="#resume" onClick={viewNavbar}>
-                            {/* <Button text='Resume' icon='bx bx-file-blank'></Button> */}
-                            <button className={styles.button}>
-                                <i className='bx bx-file-blank Icon'/>
-                                <span>Resume</span>
-                            </button>
-                        </a>
-                        <a href="#portfolio" onClick={viewNavbar}>
-                            {/* <Button text='Portfolio' icon='bx bx-briefcase'></Button> */}
-                            <button className={styles.button}>
-                                <i className='bx bx-briefcase Icon'/>
-                                <span>Portfolio</span>
-                            </button>
-                        </a>
-                        {/* <a href="#contact" onClick={viewNavbar}>
-                            <button className={styles.button}>
-                                <i className='bx bxs-contact Icon'/>
-                                <span>Contact</span>
-                            </button>
-                        </a> */}
+                    <div className={styles.show} onClick={viewNavbar}>
+                        <NavLink 
+                        to="/"
+                        >
+                        Blog
+                        </NavLink>   
+                        <NavLink 
+                        to="/technology"
+                        end
+                        >
+                        Technology
+                        </NavLink>
+                        <NavLink 
+                        to="/office"
+                        end
+                        >
+                        Office
+                        </NavLink>
+                        <NavLink 
+                        to="/house"
+                        end
+                        >
+                        House
+                        </NavLink>
+                        <NavLink 
+                        to="/sport"
+                        end
+                        >
+                        Sport
+                        </NavLink>
                     </div>
                 </>
             )}
