@@ -1,5 +1,5 @@
 
-export const house = [
+export const office = [
     // {
     //     id: 1,
     //     title: '',
