@@ -9,7 +9,7 @@ export default function Error() {
       <h1>ERROR!</h1>
       <p>{error.message}</p>
       <NavLink to="/">
-          go to home
+          Go to home
       </NavLink>
     </>
   )
