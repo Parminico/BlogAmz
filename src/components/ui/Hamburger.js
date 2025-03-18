@@ -26,7 +26,7 @@ export default function Hamburger() {
                         to="/technology"
                         end
                         >
-                        Technology
+                        Tecnologia
                         </NavLink>
                         {/* <NavLink 
                         to="/office"
@@ -35,10 +35,10 @@ export default function Hamburger() {
                         Office
                         </NavLink> */}
                         <NavLink 
-                        to="/house"
+                        to="/work"
                         end
                         >
-                        House
+                        Lavoro
                         </NavLink>
                         <NavLink 
                         to="/sport"
