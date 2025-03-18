@@ -1,4 +1,4 @@
-import styles from './House.module.css';
+import styles from './Work.module.css';
 import {office} from '../Product/Office';
 import { useState } from 'react';
 import Modale from './ui/Modale';
@@ -19,8 +19,8 @@ export default function Office () {
         <>
             <div className={styles.container}>
                 <section className={styles.category}>
-                    <h1>Office</h1>
-                    <p>In this section you will find a series of articles related to the "Office" category... have fun!</p>  
+                    <h1>altro</h1>
+                    <p>In questa sezione troverai tutti i prodotti relativi alla categoria del mondo della cartoleria, divertiti a scoprirli tutti!</p>  
                 </section>
 
                 <div className={styles.div}>

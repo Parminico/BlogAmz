@@ -1,6 +1,28 @@
 
 export const technology = [
     {
+        id: 2,
+        title: 'Tosta pane',
+        description: `Se sei come me e ami iniziare la giornata con un’ottima fetta di pane tostato, allora il tostapane Ariete 155GR Vintage potrebbe essere proprio quello che fa per te. L’ho acquistato attirato dal suo stile retrò irresistibile, ma ho scoperto che è molto più di un semplice accessorio carino da tenere in cucina.
+Il mio obiettivo è uno solo: darti la sicurezza di fare la scelta giusta. E, magari, farti scoprire qualcosa di sorprendente lungo il percorso.
+
+- Esperienza Personale (Uso Quotidiano) - 
+Da quando l’ho messo alla prova, l’Ariete 155GR è diventato un alleato prezioso per le mie colazioni. Ho subito adorato la sua manopola per regolare la tostatura su 6 livelli diversi. Devo ammettere che mi piace il pane ben dorato ma non bruciato, e qui ho trovato la regolazione perfetta al quarto livello.
+Una cosa che mi ha sorpreso è quanto sia comodo il vassoio raccogli briciole rimovibile. Ogni volta che lo uso, basta estrarlo e svuotarlo per avere un piano di lavoro sempre pulito. E il fatto che ci sia un vano raccoglicavo inferiore mi ha permesso di riporlo facilmente quando non lo uso.
+
+Ho provato anche a tostare diverse tipologie di pane: dal classico pane bianco ai panini integrali più spessi. Anche questi ultimi vengono tostati in modo uniforme, il che è un gran punto a favore.
+
+- Aggiornamento Periodico (Dopo 1 Mese di Utilizzo) - 
+Dopo un mese di utilizzo costante, posso dire con sicurezza che l’Ariete 155GR mantiene tutte le sue promesse. Non ho mai avuto problemi di surriscaldamento e continua a funzionare alla perfezione. Un piccolo consiglio? Per fette più spesse o pane rustico, è meglio impostare il livello di tostatura sul 5 per ottenere una doratura croccante ma morbida all’interno.
+
+L’unico piccolo difetto che ho notato è che, a volte, i lati delle fette più piccole non vengono tostati uniformemente. Ma è un dettaglio trascurabile se si considera la qualità complessiva del prodotto.
+
+- Conclusione - 
+L’Ariete 155GR 2-Schlitz-Toaster Vintage è un acquisto che consiglio senza esitazione, soprattutto se ami i prodotti con un design unico e desideri un tostapane che faccia bene il suo lavoro. È pratico, bello da vedere e, cosa più importante, funziona davvero!
+Il mio obiettivo è uno solo: darti la sicurezza di fare la scelta giusta. E, magari, farti scoprire qualcosa di sorprendente lungo il percorso.`,
+        url: 'https://amzn.to/4hrPDjq'
+    },
+    {
         id: 1,
         title: 'Iphone 16',
         description: `Immagina di tenere in mano non solo uno smartphone, ma una vera e propria estensione della tua vita digitale. L’iPhone 16 non è un semplice telefono, è un compagno che migliora ogni momento della tua giornata. Se sei qui sul mio sito, probabilmente stai cercando qualcosa di più di un dispositivo tecnologico, e l’iPhone 16 è proprio quello che fa per te.

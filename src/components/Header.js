@@ -19,21 +19,21 @@ export default function Header() {
             style={({isActive}) => isActive ? {fontWeight: 'bold', backgroundColor: 'lightgreen', textDecoration: 'none', color: 'black', padding:'5px', border: '1px solid black', borderRadius: '5px'} : undefined}
             end
           >
-            Technology
+            Tecnologia
           </NavLink>
-          <NavLink 
+          {/* <NavLink 
             to="/office"
             style={({isActive}) => isActive ? {fontWeight: 'bold', backgroundColor: 'lightgreen', textDecoration: 'none', color: 'black', padding:'5px', border: '1px solid black', borderRadius: '5px'} : undefined}
             end
           >
-            Office
-          </NavLink>
+            Ufficio
+          </NavLink> */}
           <NavLink 
-            to="/house"
+            to="/work"
             style={({isActive}) => isActive ? {fontWeight: 'bold', backgroundColor: 'lightgreen', textDecoration: 'none', color: 'black', padding:'5px', border: '1px solid black', borderRadius: '5px'} : undefined}
             end
           >
-            House
+            Lavoro
           </NavLink>
           <NavLink 
             to="/sport"

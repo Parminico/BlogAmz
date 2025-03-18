@@ -1,18 +1,24 @@
-import styles from './House.module.css';
-import {sport} from '../Product/Sport';
+import styles from './Work.module.css';
 import { useState } from 'react';
 import Modale from './ui/Modale';
-
+import {sport} from '../Product/Sport';
+import { motion } from 'framer-motion';
 
 export default function Sport () {
 
     const [isactive, setisactive] = useState(null)
 
-    const product = sport.map(card => (
-        <div key={card.id} className={styles.cardProduct}
-                onClick={() => setisactive(card)}>
-            <h5>{card.title}</h5>
-        </div>
+    const product = sport.map((card, index) => (
+        <motion.div
+            key={card.id}
+            className={styles.cardProduct}
+            onClick={() => setisactive(card)}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: index * 0.2 }}
+            >
+                <h5>{card.title}</h5>
+        </motion.div>
     ))
 
     return (
@@ -20,7 +26,7 @@ export default function Sport () {
             <div className={styles.container}>
                 <section className={styles.category}>
                     <h1>Sport</h1>
-                    <p>In this section you will find a series of articles related to the "Sport" category... have fun!</p>  
+                    <p>In questa sezione troverai tutti i prodotti relativi alla categoria del mondo dello sport, divertiti a scoprirli tutti!</p>  
                 </section>
 
                 <div className={styles.div}>

@@ -9,7 +9,7 @@ export default function Modale({isactive, setisactive}) {
                     <h3 className="details">{isactive.title}</h3>
                     <p className="details">{isactive.description}</p>
                     <a className="details" target="blank" href={isactive.url}>{isactive.url}</a>
-                    <p className="details">As an Amazon Associate, I earn from qualifying purchases.</p>
+                    <p className="details">In qualità di affiliato Amazon, ricevo un guadagno dagli acquisti idonei.</p>
                 </div>
             </div>
         </>

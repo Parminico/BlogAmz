@@ -1,26 +1,33 @@
-import styles from './House.module.css';
+import styles from './Work.module.css';
 import { useState } from 'react';
 import Modale from './ui/Modale';
 import { technology } from '../Product/Technology';
+import { motion } from 'framer-motion';
 
 
-export default function Office () {
+export default function Technology () {
 
     const [isactive, setisactive] = useState(null)
 
-    const product = technology.map(card => (
-        <div key={card.id} className={styles.cardProduct}
-                onClick={() => setisactive(card)}>
-            <h5>{card.title}</h5>
-        </div>
+    const product = technology.map((card, index) => (
+        <motion.div
+            key={card.id}
+            className={styles.cardProduct}
+            onClick={() => setisactive(card)}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: index * 0.2 }}
+            >
+                <h5>{card.title}</h5>
+        </motion.div>
     ))
 
     return (
         <>
             <div className={styles.container}>
                 <section className={styles.category}>
-                    <h1>Technology</h1>
-                    <p>In this section you will find a series of articles related to the "Technology" category... have fun!</p>  
+                    <h1>Tecnologia</h1>
+                    <p>In questa sezione troverai tutti i prodotti relativi alla categoria del mondo della tecnologia, divertiti a scoprirli tutti!</p>  
                 </section>
 
                 <div className={styles.div}>

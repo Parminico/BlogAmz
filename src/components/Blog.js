@@ -9,9 +9,17 @@ export default function Blog() {
         <>
             <section className={styles.blogSection}>
                 <h1>The True Blog</h1>
-                <h2>Welcome to my Blog!!</h2>
-                <p>In this blog I talk about amazon products that I can give valuable information that you will not find on other sites. This is because before writing the reviews, the products have been personally tested. I hope you can find something interesting!</p>
-                <p>As an Amazon Associate, I earn from qualifying purchases.</p>        
+                <h2>Benvenuto nel Mio Angolo di Recensioni!!</h2>
+                <p>Ciao e benvenuto nel mio blog! Qui non troverai semplici elenchi di prodotti, ma esperienze reali. Ogni recensione nasce da un desiderio: aiutarti a trovare ciò che davvero meriti.</p>   
+                <h3>Perché Dovresti Fidarti di Me?</h3>
+                <p>Perché ogni prodotto che recensisco lo valuto con occhi sinceri. Non mi limito a descrivere caratteristiche tecniche: ti parlo di cosa significa usare davvero quegli oggetti, come migliorano la vita di tutti i giorni e, sì, anche cosa non va bene.</p>
+                <h3>Scopri Prodotti Amazon Testati Direttamente da Me!</h3>
+                <p>Immagina di non dover più perdere ore a cercare recensioni affidabili. Qui faccio il lavoro sporco per te! Se un prodotto mi convince, te lo racconto come farei con un amico. Se qualcosa non va, te lo dico senza filtri.</p>
+                <h3>Lasciati Ispirare e Scegli il Meglio per Te</h3>
+                <p>Il mio obiettivo è uno solo: darti la sicurezza di fare la scelta giusta. E, magari, farti scoprire qualcosa di sorprendente lungo il percorso.</p>
+                <br/>
+                <br/>
+                <p>In qualità di affiliato Amazon, ricevo un guadagno dagli acquisti idonei.</p>
             </section>
             <section className={styles.blogSelect}>
                 <NavLink 
@@ -22,17 +30,17 @@ export default function Blog() {
                 <NavLink 
                     to="/technology" end
                 >
-                    Technology
+                    Tecnologia
                 </NavLink>
-                <NavLink 
+                {/* <NavLink 
                     to="/office" end
                 >
-                    Office
-                </NavLink>
+                    Ufficio
+                </NavLink> */}
                 <NavLink 
-                    to="/house" end
+                    to="/work" end
                 >
-                    House
+                    Lavoro
                 </NavLink>
                 <NavLink 
                     to="/sport" end

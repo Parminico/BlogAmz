@@ -1,26 +1,32 @@
-import styles from './House.module.css';
-import {house} from '../Product/House';
+import styles from './Work.module.css';
+import {work} from '../Product/Work';
 import { useState } from 'react';
 import Modale from './ui/Modale';
+import { motion } from 'framer-motion';
 
-
-export default function House () {
+export default function Work () {
 
     const [isactive, setisactive] = useState(null)
 
-    const product = house.map(card => (
-        <div key={card.id} className={styles.cardProduct}
-                onClick={() => setisactive(card)}>
-            <h5>{card.title}</h5>
-        </div>
+    const product = work.map((card, index) => (
+        <motion.div
+            key={card.id}
+            className={styles.cardProduct}
+            onClick={() => setisactive(card)}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: index * 0.2 }}
+            >
+                <h5>{card.title}</h5>
+        </motion.div>
     ))
 
     return (
         <>
             <div className={styles.container}>
                 <section className={styles.category}>
-                    <h1>House</h1>
-                    <p>In this section you will find a series of articles related to the "House" category... have fun!</p>  
+                    <h1>Lavoro</h1>
+                    <p>In questa sezione troverai tutti i prodotti relativi alla categoria del mondo del lavoro, divertiti a scoprirli tutti!</p>  
                 </section>
 
                 <div className={styles.div}>
