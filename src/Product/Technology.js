@@ -1,6 +1,36 @@
 
 export const technology = [
     {
+        id: 3,
+        title: 'Fanale Qashqai',
+        description: `   Fanale Posteriore Sinistro per Nissan Qashqai (2010-2013) – La Mia Esperienza Diretta
+
+Se c’è una cosa che mi manda in tilt, è vedere la mia auto con un fanale rotto o danneggiato. Non solo è esteticamente fastidioso, ma può diventare anche un problema di sicurezza. Così, quando ho avuto bisogno di sostituire il fanale posteriore sinistro della mia Nissan Qashqai J10 (2011), ho deciso di provare questo modello.
+
+⸻
+
+Montaggio: più facile del previsto
+
+A primo impatto, il fanale mi è sembrato solido e ben costruito. La lente in plastica nera ha un aspetto elegante e si abbina perfettamente al design dell’auto. Il LED interno è già integrato, quindi nessun problema su quel fronte.
+
+Ora, ammetto di non essere un meccanico, quindi l’idea di smontare e montare un fanale mi metteva un po’ di ansia. Ma devo dire che è stato più semplice di quanto pensassi. Il fanale si allinea perfettamente agli attacchi originali della mia Qashqai e, in pochi minuti, era già fissato al suo posto. L’unico dettaglio da tenere a mente è che la lampadina della freccia non è inclusa, quindi se la vecchia è rotta, meglio procurarsene una in anticipo.
+
+⸻
+
+Performance e qualità
+
+Una volta montato, ho acceso l’auto per verificare che tutto funzionasse a dovere. E devo dire che il risultato è stato impeccabile. L’intensità del LED è ottima, la luce si diffonde in modo uniforme e il design è identico a quello originale. A livello estetico, la mia Qashqai sembra esattamente come prima, senza quella fastidiosa asimmetria che mi dava noia ogni volta che guardavo lo specchietto.
+
+Dopo qualche settimana di utilizzo, posso confermare che il fanale resiste bene alle intemperie. Pioggia, sporco e umidità non hanno dato problemi, e il sistema di fissaggio tiene perfettamente.
+
+⸻
+
+Conclusione
+
+Se hai una Nissan Qashqai tra il 2010 e il 2013 e cerchi un sostituto perfetto per il fanale originale, questo modello è la scelta giusta. Facile da montare, ben costruito e con una resa luminosa impeccabile. Unica accortezza: ricordati di procurarti la lampadina della freccia, perché non è inclusa.`,
+        url: 'https://amzn.to/4iFm1jU'
+    },
+    {
         id: 2,
         title: 'Tosta pane',
         description: `Se sei come me e ami iniziare la giornata con un’ottima fetta di pane tostato, allora il tostapane Ariete 155GR Vintage potrebbe essere proprio quello che fa per te. L’ho acquistato attirato dal suo stile retrò irresistibile, ma ho scoperto che è molto più di un semplice accessorio carino da tenere in cucina.
