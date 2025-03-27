@@ -1,6 +1,38 @@
 
 export const technology = [
     {
+        id: 4,
+        title: 'Ripetitore wi-fi',
+        description: `TP-Link RE700X – Ripetitore WiFi 6 AX3000: Potenza e Stabilità a Portata di Mano
+        -------- Introduzione --------
+        Se hai problemi di copertura WiFi in casa, il TP-Link RE700X potrebbe essere la soluzione giusta. Si tratta di un ripetitore di segnale con tecnologia WiFi 6, capace di offrire velocità elevate e una connessione più stabile su due bande: 2,4 GHz (574 Mbps) e 5 GHz (2402 Mbps). Grazie alla compatibilità con OneMesh, si integra perfettamente con altri dispositivi TP-Link per creare una rete unificata.
+        Ma funziona davvero così bene? L’ho provato in casa mia per un mese, e ora posso raccontarti la mia esperienza.
+        -------- Esperienza Personale (Uso Quotidiano) --------
+        L’installazione è stata semplicissima: ho seguito le istruzioni e in pochi minuti il ripetitore era operativo. Ho provato sia la configurazione tramite app TP-Link (che ha dato qualche problema di connessione iniziale) sia quella con il tasto WPS, che si è rivelata la soluzione più veloce ed efficace.
+        Una volta attivato, la differenza si è notata subito. In casa mia avevo problemi di segnale in una stanza al piano inferiore, dove il WiFi risultava debole e spesso si disconnetteva. Con il TP-Link RE700X, la connessione è diventata molto più stabile: il segnale non è potentissimo, ma sufficiente per garantire una navigazione fluida e senza interruzioni.
+        Se hai un router compatibile con OneMesh, il ripetitore funziona ancora meglio, creando una rete unica senza necessità di riconnettere manualmente i dispositivi. Purtroppo, il mio router Fastweb non è compatibile con questa tecnologia, quindi ho dovuto accontentarmi di usarlo come classico ripetitore WiFi.
+        Aspetti positivi che ho notato:
+        ✅ Velocità di connessione stabile, soprattutto sulla banda 5 GHz.
+        ✅ Design compatto, facile da posizionare in qualsiasi presa.
+        ✅ Porta Gigabit Ethernet, utile per collegare dispositivi via cavo.
+        ✅ Buona compatibilità con i router TP-Link (se usato con OneMesh).
+        Aspetti negativi:
+        ❌ L’app TP-Link non è sempre stabile e può dare problemi in fase di configurazione.
+        ❌ Non è un miracolo: migliora la copertura, ma non aspettarti di espandere il segnale di molti metri.
+        -------- Aggiornamento Periodico (Dopo 1 Mese di Utilizzo) --------
+        Dopo un mese di utilizzo, posso dire che il TP-Link RE700X si è dimostrato un buon ripetitore, ma con qualche limite. La stabilità del segnale è migliorata, soprattutto nella stanza in cui prima avevo problemi, ma ho notato che ogni 2-3 giorni tende a disconnettersi e ho dovuto riavviarlo manualmente per ripristinare il segnale.
+        Un altro punto a cui fare attenzione è la compatibilità con OneMesh: se il tuo router non è TP-Link o non supporta questa tecnologia, il ripetitore funzionerà, ma senza la possibilità di creare una rete unica, quindi dovrai selezionare manualmente il WiFi esteso.
+        In definitiva, il RE700X ha risolto i miei problemi di segnale, ma richiede un po’ di pazienza per gestire le eventuali disconnessioni.
+        -------- Conclusione --------
+        Il TP-Link RE700X è un ottimo ripetitore WiFi per chi cerca una soluzione semplice ed efficace per migliorare la copertura della rete domestica. Se hai un router TP-Link compatibile con OneMesh, l’esperienza sarà ancora migliore, ma anche senza questa funzione il dispositivo fa il suo lavoro.
+        Se cerchi un ripetitore potente e affidabile, ma sei disposto ad accettare qualche piccolo inconveniente nella gestione del segnale, questo modello è una buona scelta.
+        Il mio obiettivo è uno solo: darti la sicurezza di fare la scelta giusta. E, magari, farti scoprire qualcosa di sorprendente lungo il percorso.
+
+        ⸻        
+        🔥 Consiglio finale: Se hai una casa su più piani o stanze con muri spessi, il TP-Link RE700X può essere la soluzione giusta, ma non aspettarti miracoli!`,
+        url: 'https://amzn.to/3FGphNg'
+    },
+    {
         id: 3,
         title: 'Fanale Qashqai',
         description: `   Fanale Posteriore Sinistro per Nissan Qashqai (2010-2013) – La Mia Esperienza Diretta
@@ -74,7 +106,7 @@ Lo so, potresti trovare l’iPhone 16 da tanti altri rivenditori. Ma qui, sul mi
 
 Scegliere l’iPhone 16 è una decisione che ti cambia la vita. E, se lo acquisti da me, sarà una scelta che ti farà sentire speciale fin dal primo clic.`,
         url: 'https://amzn.to/4iwAoXa'
-    },
+    }
     
 
 ]
