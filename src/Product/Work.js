@@ -1,40 +1,27 @@
 
 export const work = [
     {
-        id: 2,
+        id: 'W2',
         title: 'Guanti in nitrile',
-        description: `Quando si parla di guanti da lavoro, non possiamo certo scendere a compromessi tra comfort e protezione. Per questo motivo, ho deciso di provare i Guanti RMOVE 50+50 in nitrile Diamond, e devo dire che sono rimasto sorpreso dalla loro qualità. Con uno spessore di 8,5 gr. e ben 140% in più rispetto ai guanti standard, questi guanti offrono una protezione superiore che non sacrifica la comodità.
-        - Esperienza Personale (Uso Quotidiano) - 
-        Dal momento in cui li ho indossati, i Guanti RMOVE mi hanno sorpreso per il loro comfort e la presa sicura. Grazie alla loro trama diamantata sulla superficie, questi guanti offrono un grip eccezionale, perfetto anche quando si maneggiano oggetti scivolosi o umidi. La calzata regolare (taglia XL) è perfetta per le mie mani, con un'aderenza perfetta che non mi ha mai fatto sentire né troppo stretto né troppo largo.
-
-        Il materiale in nitrile è resistente, e posso affermare che, nonostante un uso intenso, i guanti non si sono strappati né danneggiati. Grazie allo spessore maggiorato a 0,23 mm, offrono una protezione extra contro abrasioni e piccoli danni, ma sono comunque abbastanza sottili da permettere una buona destrezza e precisione. Ho lavorato con attrezzi, materiali abrasivi e superfici ruvide, e non ho avuto problemi.
-
-        - Aggiornamento Periodico (Dopo 1 Mese di Utilizzo) -
-        Dopo un mese di utilizzo regolare, i Guanti RMOVE hanno mantenuto tutte le loro caratteristiche di resistenza e comfort. L'extra grip è ancora molto efficace, e anche dopo ore di lavoro, non hanno mostrato segni di usura. Mi ha impressionato soprattutto la durabilità del materiale, che ha resistito anche alle situazioni più impegnative, come il sollevamento di carichi pesanti e la manipolazione di oggetti con bordi taglienti.
-
-        Un altro punto a favore è la protezione ipoallergenica, che ha reso questi guanti ideali anche per lunghe sessioni di lavoro, senza irritazioni o allergie. La superficie interna asciutta e liscia ha contribuito a mantenere le mani asciutte e comode. Tuttavia, vale la pena notare che questi guanti non sono resistenti alle sostanze chimiche, quindi è meglio evitare l'uso in ambienti che richiedono una protezione contro agenti chimici.
-
-        - Conclusione -
-        I Guanti RMOVE 50+50 in nitrile Diamond sono la scelta ideale per chi cerca guanti da lavoro robusti e confortevoli. Con il loro extra grip, il materiale ipoallergenico e la resistenza superiore, sono perfetti per lavori che richiedono precisione, sicurezza e durabilità. Sebbene non siano resistenti alle sostanze chimiche, sono comunque una soluzione eccellente per una vasta gamma di attività lavorative.`,
+        descriptionTitle: `Guanti in nitrile`,
+        description: `Quando si parla di guanti da lavoro, non possiamo certo scendere a compromessi tra comfort e protezione. Per questo motivo, ho deciso di provare i Guanti RMOVE 50+50 in nitrile Diamond, e devo dire che sono rimasto sorpreso dalla loro qualità. Con uno spessore di 8,5 gr. e ben 140% in più rispetto ai guanti standard, questi guanti offrono una protezione superiore che non sacrifica la comodità.`,
+        descriptionUse: `Dal momento in cui li ho indossati, i Guanti RMOVE mi hanno sorpreso per il loro comfort e la presa sicura. Grazie alla loro trama diamantata sulla superficie, questi guanti offrono un grip eccezionale, perfetto anche quando si maneggiano oggetti scivolosi o umidi. La calzata regolare (taglia XL) è perfetta per le mie mani, con un'aderenza perfetta che non mi ha mai fatto sentire né troppo stretto né troppo largo.
+        Il materiale in nitrile è resistente, e posso affermare che, nonostante un uso intenso, i guanti non si sono strappati né danneggiati. Grazie allo spessore maggiorato a 0,23 mm, offrono una protezione extra contro abrasioni e piccoli danni, ma sono comunque abbastanza sottili da permettere una buona destrezza e precisione. Ho lavorato con attrezzi, materiali abrasivi e superfici ruvide, e non ho avuto problemi.`,
+        descriptionUpdate: `Dopo un mese di utilizzo regolare, i Guanti RMOVE hanno mantenuto tutte le loro caratteristiche di resistenza e comfort. L'extra grip è ancora molto efficace, e anche dopo ore di lavoro, non hanno mostrato segni di usura. Mi ha impressionato soprattutto la durabilità del materiale, che ha resistito anche alle situazioni più impegnative, come il sollevamento di carichi pesanti e la manipolazione di oggetti con bordi taglienti.
+        Un altro punto a favore è la protezione ipoallergenica, che ha reso questi guanti ideali anche per lunghe sessioni di lavoro, senza irritazioni o allergie. La superficie interna asciutta e liscia ha contribuito a mantenere le mani asciutte e comode. Tuttavia, vale la pena notare che questi guanti non sono resistenti alle sostanze chimiche, quindi è meglio evitare l'uso in ambienti che richiedono una protezione contro agenti chimici.`,
+        descriptionClose: `I Guanti RMOVE 50+50 in nitrile Diamond sono la scelta ideale per chi cerca guanti da lavoro robusti e confortevoli. Con il loro extra grip, il materiale ipoallergenico e la resistenza superiore, sono perfetti per lavori che richiedono precisione, sicurezza e durabilità. Sebbene non siano resistenti alle sostanze chimiche, sono comunque una soluzione eccellente per una vasta gamma di attività lavorative.`,
         url: 'https://amzn.to/4l0At7o'
-    },   
+    }, 
     {
-        id: 1,
+        id: 'W1',
         title: 'Giubbotto alta visibilità',
-        description: `Quando si tratta di sicurezza, specialmente nelle situazioni di emergenza o di lavoro notturno, la visibilità è fondamentale. Ho deciso di provare il Giubbotto Catarifrangente Aerzouser, un set da 4 pezzi che promette di massimizzare la sicurezza grazie alle strisce riflettenti di alta qualità. Utilizzandolo in diverse situazioni, ho scoperto quanto sia utile e versatile, non solo per i guasti in auto, ma anche per altri ambiti lavorativi o sportivi.- Esperienza Personale (Uso Quotidiano) -
-        La prima cosa che mi ha colpito del Giubbotto Catarifrangente Aerzouser è la sua leggerezza. Ogni giubbotto pesa solo 70 grammi, il che lo rende davvero comodo da indossare, senza appesantire. Nonostante la leggerezza, il materiale è resistente e di alta qualità, conferendo una sensazione di durabilità e robustezza. Ho testato i gilet durante alcune attività all’aperto al tramonto e, grazie alle strisce riflettenti, la visibilità è stata ottima, sia di giorno che di notte.
-
-        Sono rimasto sorpreso dalla visibilità a 360°, che rende il giubbotto perfetto anche in situazioni di scarsa illuminazione. Durante un’uscita in auto notturna, ho avuto l’opportunità di provarlo in un’emergenza e la visibilità di chi lo indossava era davvero impressionante. Non solo si nota subito, ma aumenta anche la sicurezza, riducendo notevolmente il rischio di incidenti secondari.
-
-        - Aggiornamento Periodico (Dopo 1 Mese di Utilizzo) -
-        Dopo un mese di utilizzo, posso dire con certezza che il Giubbotto Catarifrangente Aerzouser è una scelta azzeccata per chi cerca sicurezza e comfort. Ho utilizzato il gilet durante attività lavorative, ma anche durante alcuni allenamenti all’aperto al tramonto e nelle prime ore della sera, e il grande effetto riflettente ha garantito che fossi visibile in ogni momento.
-
-        Quello che mi ha impressionato è la durabilità delle strisce riflettenti, che non si sono scolorite o danneggiate nemmeno dopo un uso frequente. I gilet sono rimasti in perfette condizioni, e la loro visibilità a 360° si è dimostrata decisiva anche in situazioni di buio quasi totale.
-
-        - Conclusione -
-        Il Giubbotto Catarifrangente Aerzouser è un acquisto che raccomando vivamente. Con il set da 4 pezzi, hai la possibilità di avere un gilet di alta qualità che offre una protezione ottimale in qualsiasi situazione. Le strisce riflettenti di alta qualità offrono una visibilità incredibile, aumentando la sicurezza nelle ore notturne o in situazioni di emergenza.`,
+        descriptionTitle: `Giubbotto alta visibilità`,
+        description: `Quando si tratta di sicurezza, specialmente nelle situazioni di emergenza o di lavoro notturno, la visibilità è fondamentale. Ho deciso di provare il Giubbotto Catarifrangente Aerzouser, un set da 4 pezzi che promette di massimizzare la sicurezza grazie alle strisce riflettenti di alta qualità. Utilizzandolo in diverse situazioni, ho scoperto quanto sia utile e versatile, non solo per i guasti in auto, ma anche per altri ambiti lavorativi o sportivi.`,
+        descriptionUse: `La prima cosa che mi ha colpito del Giubbotto Catarifrangente Aerzouser è la sua leggerezza. Ogni giubbotto pesa solo 70 grammi, il che lo rende davvero comodo da indossare, senza appesantire. Nonostante la leggerezza, il materiale è resistente e di alta qualità, conferendo una sensazione di durabilità e robustezza. Ho testato i gilet durante alcune attività all’aperto al tramonto e, grazie alle strisce riflettenti, la visibilità è stata ottima, sia di giorno che di notte.
+        Sono rimasto sorpreso dalla visibilità a 360°, che rende il giubbotto perfetto anche in situazioni di scarsa illuminazione. Durante un’uscita in auto notturna, ho avuto l’opportunità di provarlo in un’emergenza e la visibilità di chi lo indossava era davvero impressionante. Non solo si nota subito, ma aumenta anche la sicurezza, riducendo notevolmente il rischio di incidenti secondari.`,
+        descriptionUpdate: `Dopo un mese di utilizzo, posso dire con certezza che il Giubbotto Catarifrangente Aerzouser è una scelta azzeccata per chi cerca sicurezza e comfort. Ho utilizzato il gilet durante attività lavorative, ma anche durante alcuni allenamenti all’aperto al tramonto e nelle prime ore della sera, e il grande effetto riflettente ha garantito che fossi visibile in ogni momento.
+        Quello che mi ha impressionato è la durabilità delle strisce riflettenti, che non si sono scolorite o danneggiate nemmeno dopo un uso frequente. I gilet sono rimasti in perfette condizioni, e la loro visibilità a 360° si è dimostrata decisiva anche in situazioni di buio quasi totale.`,
+        descriptionClose: `Il Giubbotto Catarifrangente Aerzouser è un acquisto che raccomando vivamente. Con il set da 4 pezzi, hai la possibilità di avere un gilet di alta qualità che offre una protezione ottimale in qualsiasi situazione. Le strisce riflettenti di alta qualità offrono una visibilità incredibile, aumentando la sicurezza nelle ore notturne o in situazioni di emergenza.`,
         url: 'https://amzn.to/3Y18JFU'
-    }   
-    
-
+    }
 ]
